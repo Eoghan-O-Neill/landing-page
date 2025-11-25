@@ -62,18 +62,52 @@ body {
     margin-top: 5px;
 }
 
+.section-two .section-two-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+
 .image-row {
     display: flex;
+    justify-content: center;
+    gap: 55px;
 }
 
 .image-row div {
     display: flex;
     flex-direction: column;
-    align-items: center;;
+    align-items: center;
 }
 
 .image-row div img {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border-radius: 10%;
+}
+
+.image-row div p {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-three .quote-text {
+    font-style: italic;
+    width: 600px;
+    text-align: center;
+}
+
+.section-three .quote-name {
+    font-weight: bold;
+    text-align: end;
+    width: 600px;
 }
