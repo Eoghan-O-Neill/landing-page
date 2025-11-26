@@ -97,17 +97,59 @@ body {
     padding: 25px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    padding-bottom: 40px;
 }
 
 .section-three .quote-text {
     font-style: italic;
-    width: 600px;
-    text-align: center;
+    width: 720px;
+    text-align: left;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 5px;
 }
 
 .section-three .quote-name {
     font-weight: bold;
+    margin-top: 5px;
+    width: 720px;
     text-align: end;
-    width: 600px;
+}
+
+.section-four {
+    background: #3882F6;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    border-radius: 2%;
+    color: white;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 720px;
+    height: 100px;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.section-four button {
+    align-self: center;
+    background-color: transparent;
+    color: white;
+    border-radius: 10%;
+    border-color: white;
+    border-style: solid;
+    padding: 5px;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 10px;
+    justify-content: center;
 }
